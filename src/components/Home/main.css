@@ -1,0 +1,31 @@
+.div {
+  height: 600px;
+  width: 100%;
+  background: 
+
+    url(https://img5.goodfon.ru/wallpaper/nbig/1/c9/winter-coffee-cup-laptop-glasses-chashka-kofe-sharf-zima-nou.jpg)
+      50% 50% / cover no-repeat;
+
+
+      position: relative;
+
+}
+.div:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 2;
+  }
+.div_inner {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+}
+
